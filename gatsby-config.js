@@ -6,5 +6,14 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  flags: {
+    DEV_SSR: true,
+  },
+  plugins: [
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-image`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-react-helmet`,
+  ],
 }

@@ -1,0 +1,135 @@
+// Setting font of entire form
+.cognito .c-forms-form * {
+  font-family: "EM Print", sans-serif !important;
+}
+
+label {
+  margin-bottom: 0.5rem;
+}
+
+.survey-container {
+  padding: 0 15px;
+}
+
+// Setting Form and Step titles
+.c-forms-form-title {
+  display: none;
+}
+
+.c-title > h3 {
+  text-align: center;
+  line-height: 1.2em;
+}
+
+// Pushing form down from the top of the page
+.c-forms-form-main {
+  margin-top: 0 !important;
+  padding-top: 54px;
+}
+
+/*--------------------
+Page One Styles
+---------------------*/
+
+// Adding spacing to Gender label
+fieldset[data-field="WhatIsYourGender"] > legend {
+  padding: 25px 0 !important;
+}
+
+/*--------------------
+INPUT STYLES
+---------------------*/
+// Setting text and select inputs
+.cognito .c-forms-form input[type="text"],
+.cognito .c-forms-form select {
+  margin: 8px 0;
+  padding: 10px;
+  height: auto;
+}
+
+// Hiding default radio buttons for page 1
+.c-page-page1 input[type="radio"] {
+  display: none;
+}
+
+// Adding spacing for page 1 inputs
+.c-page-page1 .c-choice-option {
+  margin: 20px 0 !important;
+}
+
+// Styling custom radio buttons for page 1
+.c-page-page1 .c-choice-radiobuttons .c-choice-option span {
+  background: gray;
+  border-radius: 4px;
+  color: white;
+  padding: 15px 50px;
+}
+
+// Center the custom radios
+.c-page-page1 .c-choice-radiobuttons {
+  text-align: center;
+}
+
+// Set the width of custom radios
+.cognito fieldset.c-choice-radiobuttons .c-editor.c-columns-1 div {
+  width: 50% !important;
+}
+
+// Checked styles for custom radios
+.c-page-page1 input[type="radio"]:checked + span {
+  background-color: black !important;
+}
+/*--------------------
+END INPUT STYLES
+---------------------*/
+
+// Styling next button
+.cognito .c-action {
+  text-align: center;
+  float: none;
+}
+
+.c-button-section {
+  padding: 25px 75px !important;
+}
+/*--------------------
+End Page One Styles
+---------------------*/
+
+/*--------------------
+Page Two Styles
+---------------------*/
+// Taking partial inputs and making them full width
+.c-address .c-partial-line {
+  width: 100% !important;
+}
+
+// Applying margin to bottom of Select
+.c-address .c-dropdown select {
+  margin-bottom: 8px !important;
+}
+
+//Fixing spacing on the labels
+.cognito .c-forms-form :not(.c-question) > .c-label {
+  padding-bottom: 25px !important;
+}
+
+.c-choice-dropdown[data-field="TshirtSize"] .c-label {
+  padding: 25px 0;
+}
+/*--------------------
+End Page Two Styles
+---------------------*/
+
+.cognito .c-span-24 .c-span-12 {
+  width: 100%;
+}
+
+.cognito .c-span-24 .c-span-14 {
+  width: 100%;
+}
+
+#c-submit-button {
+  text-align: center;
+  float: none !important;
+}
