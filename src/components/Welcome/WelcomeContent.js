@@ -3,7 +3,7 @@ import {
   contentContainer,
   heading,
   paragraph,
-} from "../../styles/welcome.module.scss"
+} from "../../styles/welcome.module.css"
 
 export const WelcomeContent = () => {
   return (

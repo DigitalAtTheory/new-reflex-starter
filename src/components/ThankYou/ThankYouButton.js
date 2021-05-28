@@ -1,6 +1,6 @@
 import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
-import { button } from "../../styles/thankYou.module.scss"
+import { button } from "../../styles/thankYou.module.css"
 
 export const ThankYouButton = () => {
   return (

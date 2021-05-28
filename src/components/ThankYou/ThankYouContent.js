@@ -3,7 +3,7 @@ import {
   contentContainer,
   heading,
   paragraph,
-} from "../../styles/thankYou.module.scss"
+} from "../../styles/thankYou.module.css"
 
 export const ThankYouContent = () => {
   return (

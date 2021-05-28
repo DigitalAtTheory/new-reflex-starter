@@ -1,6 +1,6 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import { imageContainer } from "../../styles/welcome.module.scss"
+import { imageContainer } from "../../styles/welcome.module.css"
 
 export const WelcomeImage = () => {
   return (

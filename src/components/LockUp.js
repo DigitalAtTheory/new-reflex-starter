@@ -1,6 +1,6 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import { background, logo } from "../styles/lockup.module.scss"
+import { background, logo } from "../styles/lockup.module.css"
 
 export default function LockUp() {
   return (

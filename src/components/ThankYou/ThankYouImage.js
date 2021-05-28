@@ -1,5 +1,5 @@
 import React from "react"
-import { imageContainer } from "../../styles/thankYou.module.scss"
+import { imageContainer } from "../../styles/thankYou.module.css"
 import { StaticImage } from "gatsby-plugin-image"
 
 export const ThankYouImage = () => {
