@@ -5,7 +5,11 @@ import { StaticImage } from "gatsby-plugin-image"
 export const ThankYouImage = () => {
   return (
     <div className={imageContainer}>
-      <StaticImage src="../../images/Bike-1.png" alt="Red Motorcycle" />
+      <StaticImage
+        src="../../images/Bike-1.png"
+        alt="Red Motorcycle"
+        placeholder="blurred"
+      />
     </div>
   )
 }

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react"
+import { LoadingIndicator } from "."
 
 export const Survey = () => {
   const [loading, setLoading] = useState(true)
@@ -9,7 +10,11 @@ export const Survey = () => {
 
   return (
     <div className="survey-container">
-      {!!loading && <div>Loading...</div>}
+      {!!loading && (
+        <div className="lds-container">
+          <LoadingIndicator />
+        </div>
+      )}
       <div className="cognito"></div>
     </div>
   )

@@ -9,6 +9,7 @@ export default function LockUp() {
         className={logo}
         src="../images/APP-x-Mobil-1-FC-POS.png"
         alt="Advance Auto/Mobil1 Logo"
+        placeholder="blurred"
       />
     </div>
   )
