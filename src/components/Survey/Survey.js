@@ -4,7 +4,7 @@ import { LoadingIndicator } from "."
 export const Survey = () => {
   const [loading, setLoading] = useState(true)
   // Change the below variable to the Cognito form id to set your form
-  const formId = 50
+  const formId = null
 
   useEffect(() => {
     // ------------------
