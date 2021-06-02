@@ -5,17 +5,23 @@ import {
   paragraph,
 } from "../../styles/thankYou.module.css"
 
+// Change the content below to set your thank you content
+
 export const ThankYouContent = () => {
   return (
     <div className={contentContainer}>
-      <h1 className={heading}>We'd never miss Bike Week</h1>
+      <h1 className={heading}>This is a heading!</h1>
       <p className={paragraph}>
-        We've got your back with this year's free, limited-edition Mobil 1™ x
-        Advance Auto Parts Bike Week shirt.
+        Tofu hammock marfa enamel pin, neutra try-hard chia beard tilde palo
+        santo shaman photo booth raclette direct trade 3 wolf moon. Heirloom
+        affogato helvetica mumblecore, banjo taiyaki cloud bread iceland
+        snackwave bespoke YOLO bitters vice.
       </p>
       <p className={paragraph}>
-        Please take a few minutes to fill out this quick survey and we'll mail
-        you an exclusive Mobil 1 shirt, yours free while supplies last.
+        Tofu hammock marfa enamel pin, neutra try-hard chia beard tilde palo
+        santo shaman photo booth raclette direct trade 3 wolf moon. Heirloom
+        affogato helvetica mumblecore, banjo taiyaki cloud bread iceland
+        snackwave bespoke YOLO bitters vice.
       </p>
     </div>
   )

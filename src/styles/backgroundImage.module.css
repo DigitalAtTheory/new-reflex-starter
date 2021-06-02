@@ -1,5 +1,6 @@
 .background {
-  background-image: url("../images/DBW-Background-Desktop.jpg");
+  /* Change this relative path to set your background image */
+  background-image: url("../images/bg-image-placeholder.png");
   background-repeat: no-repeat;
   height: 100%;
   min-height: 100vh;

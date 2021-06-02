@@ -3,8 +3,15 @@ import { LoadingIndicator } from "."
 
 export const Survey = () => {
   const [loading, setLoading] = useState(true)
+  // Change the below variable to the Cognito form id to set your form
+  const formId = 50
+
   useEffect(() => {
-    Cognito.load("forms", { id: 50 })
+    // ------------------
+    // Uncomment the code below when ready to publish.
+    // With this uncommented the command "gatsby develop" won't build.
+    // ------------------
+    Cognito.load("forms", { id: formId })
     setLoading(false)
   }, [])
 

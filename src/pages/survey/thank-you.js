@@ -6,11 +6,13 @@ import {
   ThankYouImage,
   ThankYouButton,
 } from "../../components/ThankYou"
+import { useSiteContext } from "../../context/siteContext"
 
 export default function ThankYou() {
+  const { lockup } = useSiteContext()
   return (
     <div>
-      <LockUp />
+      {lockup && <LockUp />}
       <Container>
         <ThankYouImage />
         <ThankYouContent />

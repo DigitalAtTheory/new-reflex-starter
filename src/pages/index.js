@@ -6,11 +6,13 @@ import {
   WelcomeContent,
   WelcomeButton,
 } from "../components/Welcome"
+import { useSiteContext } from "../context/siteContext"
 
 export default function Home() {
+  const { lockup } = useSiteContext()
   return (
     <>
-      <LockUp />
+      {lockup && <LockUp />}
       <Container>
         <WelcomeImage />
         <WelcomeContent />

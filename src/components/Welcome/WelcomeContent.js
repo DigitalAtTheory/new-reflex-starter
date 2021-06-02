@@ -5,17 +5,21 @@ import {
   paragraph,
 } from "../../styles/welcome.module.css"
 
+// Change the content below to set the content for the welcome page
+
 export const WelcomeContent = () => {
   return (
     <div className={contentContainer}>
-      <h1 className={heading}>We'd never miss Bike Week</h1>
+      <h1 className={heading}>This is the Heading!</h1>
       <p className={paragraph}>
-        We've got your back with this year's free, limited-edition Mobil 1™ x
-        Advance Auto Parts Bike Week shirt.
+        I'm baby flannel XOXO lumbersexual fixie, cliche pabst swag aesthetic
+        put a bird on it franzen locavore health goth skateboard. Copper mug
+        vape slow-carb, squid etsy vexillologist taxidermy.
       </p>
       <p className={paragraph}>
-        Please take a few minutes to fill out this quick survey and we'll mail
-        you an exclusive Mobil 1 shirt, yours free while supplies last.
+        I'm baby flannel XOXO lumbersexual fixie, cliche pabst swag aesthetic
+        put a bird on it franzen locavore health goth skateboard. Copper mug
+        vape slow-carb, squid etsy vexillologist taxidermy.
       </p>
     </div>
   )
