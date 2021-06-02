@@ -11,8 +11,8 @@ export const Survey = () => {
     // Uncomment the code below when ready to publish.
     // With this uncommented the command "gatsby develop" won't build.
     // ------------------
-    Cognito.load("forms", { id: formId })
-    setLoading(false)
+    // Cognito.load("forms", { id: formId })
+    // setLoading(false)
   }, [])
 
   return (
